@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mytextutil/static/css/main.dc4d6ff2.css",
-    "main.js": "/mytextutil/static/js/main.403958ab.js",
-    "static/js/453.a21fa496.chunk.js": "/mytextutil/static/js/453.a21fa496.chunk.js",
-    "index.html": "/mytextutil/index.html",
-    "main.dc4d6ff2.css.map": "/mytextutil/static/css/main.dc4d6ff2.css.map",
-    "main.403958ab.js.map": "/mytextutil/static/js/main.403958ab.js.map",
-    "453.a21fa496.chunk.js.map": "/mytextutil/static/js/453.a21fa496.chunk.js.map"
+    "main.css": "/SukratiRepositoryTextutil/static/css/main.dc4d6ff2.css",
+    "main.js": "/SukratiRepositoryTextutil/static/js/main.e8815dac.js",
+    "static/js/453.a21fa496.chunk.js": "/SukratiRepositoryTextutil/static/js/453.a21fa496.chunk.js",
+    "index.html": "/SukratiRepositoryTextutil/index.html",
+    "main.dc4d6ff2.css.map": "/SukratiRepositoryTextutil/static/css/main.dc4d6ff2.css.map",
+    "main.e8815dac.js.map": "/SukratiRepositoryTextutil/static/js/main.e8815dac.js.map",
+    "453.a21fa496.chunk.js.map": "/SukratiRepositoryTextutil/static/js/453.a21fa496.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.403958ab.js"
+    "static/js/main.e8815dac.js"
   ]
 }
