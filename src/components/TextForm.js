@@ -14,17 +14,20 @@ export default function TextForm(props) {
   const handleUpClick = () => {
     const newText = text.toUpperCase();
     setText(newText);
+     props.showAlert('Converted to uppercase', 'success');
   };
 
   const handleSentanceClick = () => {
     if (text.length === 0) return;
     let newText = text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
     setText(newText);
+
   };
 
   const handleClearClick = () => {
     let newText = "";
     setText(newText);
+    props.showAlert('Text Cleared!', 'success');
   };
 
   const handleCapClick = () => {
@@ -35,6 +38,7 @@ export default function TextForm(props) {
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ");
     setText(newText);
+    props.showAlert('Capitalized to text ', 'success');
   };
 
   /*const countVowels = () => {
@@ -62,6 +66,7 @@ export default function TextForm(props) {
     if (!text) return;
     let newText = text.replace(/\s+/g, " ").trim();
     setText(newText);
+    props.showAlert('Extra spaces removed', 'success');
   };
 
   const handleSpeak = () => {
@@ -74,6 +79,7 @@ export default function TextForm(props) {
   const handleCopy = () => {
     if (!text) return;
     navigator.clipboard.writeText(text);
+     props.showAlert('Copied to Clipboard!', 'success');
   };
 
   //setText('Enter the ytext hereee');
