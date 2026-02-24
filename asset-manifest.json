@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SukratiRepositoryTextutil/static/css/main.dc4d6ff2.css",
-    "main.js": "/SukratiRepositoryTextutil/static/js/main.0b52becc.js",
+    "main.js": "/SukratiRepositoryTextutil/static/js/main.52c665ea.js",
     "static/js/453.a21fa496.chunk.js": "/SukratiRepositoryTextutil/static/js/453.a21fa496.chunk.js",
     "index.html": "/SukratiRepositoryTextutil/index.html",
     "main.dc4d6ff2.css.map": "/SukratiRepositoryTextutil/static/css/main.dc4d6ff2.css.map",
-    "main.0b52becc.js.map": "/SukratiRepositoryTextutil/static/js/main.0b52becc.js.map",
+    "main.52c665ea.js.map": "/SukratiRepositoryTextutil/static/js/main.52c665ea.js.map",
     "453.a21fa496.chunk.js.map": "/SukratiRepositoryTextutil/static/js/453.a21fa496.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.0b52becc.js"
+    "static/js/main.52c665ea.js"
   ]
 }
