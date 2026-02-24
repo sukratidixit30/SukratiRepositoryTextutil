@@ -22,13 +22,13 @@ function App() {
     if(mode === 'dark'){
       setMode('light');
       document.body.style.backgroundColor = 'white';
-      showAlert("Dark mod has been enabled", "success");
+      showAlert("Light mod has been enabled", "success");
       //document.title = 'Dark mode enabled';
     }
     else {
       setMode('dark');
       document.body.style.backgroundColor = '#042743';
-      showAlert("Light mod has been enabled", "success");
+      showAlert("Dark mod has been enabled", "success");
       //document.title = 'Light mode enabled';
     }
   }
@@ -36,7 +36,7 @@ function App() {
     <>
     <Navbar title="MyTextutil" aboutUs="About" mode={mode} toggleMode={toggleMode}/>
     <Alert alert={alert}/>
-    <TextForm heading="Enter the text to analyse" showAlert={showAlert} mode={mode}></TextForm>
+    <TextForm heading="Try TextUtils - Word Counter, Character Counter, Remove extra spaces" showAlert={showAlert} mode={mode}></TextForm>
     {/*<About/>*/}
     </>
      
